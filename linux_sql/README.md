@@ -34,7 +34,7 @@ crontab -e
 # Implementation
 ## Architecture
 The architecture consists of multiple Linux hosts running the Agent scripts. These agents communicate with a centralized PostgreSQL database instance running in a Docker container.
-![architecture illustration](../assets/monitor_arch.drawio.png)
+![architecture illustration](/linux_sql/assets//arch.png)
 ## Scripts
 ### psql_docker
 This script manages the lifecycle of the PostgreSQL Docker container. It handles the creation of a Docker volume and provides a simple interface for starting or stopping the service.
