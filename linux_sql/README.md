@@ -33,7 +33,7 @@ crontab -e
 
 # Implementation
 ## Architecture
-The architecture consists of multiple Linux hosts running the Agent scripts. These agents communicate with a centralized PostgreSQL database instance running in a Docker container.
+The architecture consists of multiple Linux hosts running the Agent scripts. These agents communicate with a centralized PostgreSQL database instance running in a Docker container. <br>
 ![architecture illustration](/linux_sql/assets//arch.png)
 ## Scripts
 ### psql_docker
