@@ -1,6 +1,8 @@
 # Introduction
+This repository serves as a structured archive of my SQL learning journey, specifically focused on the PostgreSQL clubdata dataset. Utilizing a Dockerized PostgreSQL environment hosted on a Rocky Linux VM, I developed a custom infrastructure to solve complex relational queries in an isolated, professional setting.
 
-# SQL Queries
+
+Inside are my comprehensive solutions ranging from basic data retrieval to advanced aggregations and subqueries. Each solution is documented with its corresponding SQL logic
 
 ###### Table Setup (DDL)
 
