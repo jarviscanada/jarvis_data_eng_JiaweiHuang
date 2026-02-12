@@ -34,7 +34,7 @@ analytics engine to generate insights that are then fed back into marketing auto
 
 
 ## Data Analytics and Wrangling
-**View Analysis:**`./retail_data_analytics_wrangling.ipynb`
+**View Detailed Analysis** [**Here**](./retail_data_analytics_wrangling.ipynb)
 - **Strategy 1:** Analysis shows that existing users provide a more stable revenue stream. We can design a 
 "Refer-a-Friend" program specifically for the "Loyal Customers" segment to lower acquisition costs.
 - **Strategy 2:** After identifying "Potential Loyalists" (high recency but low frequency), we can send "Second Purchase" 
