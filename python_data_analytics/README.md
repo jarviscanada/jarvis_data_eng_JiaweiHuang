@@ -25,6 +25,8 @@ The project follows a modern data pipeline flow. Data originates from the LGS We
 orders and inventory. This data is stored in a CSV file, exported for analysis, and processed through our 
 analytics engine to generate insights that are then fed back into marketing automation tools.
 
+![Illustration of Project Architecture](/python_data_analytics/assets/archt.png)
+
 ### Flow
 - **Source:** LGS Web App captures transactional events.
 - **Storage:** Transactions are recorded in the LGS Database (data warehouse).
