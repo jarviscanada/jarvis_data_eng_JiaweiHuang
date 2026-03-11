@@ -16,7 +16,7 @@ public class JavaGrepLambdaImp extends JavaGrepImp {
         }
         JavaGrepLambdaImp javaGrepLambdaImp = new JavaGrepLambdaImp();
         javaGrepLambdaImp.setRegex(args[0]);
-        javaGrepLambdaImp.setOutFile(args[1]);
+        javaGrepLambdaImp.setRootPath(args[1]);
         javaGrepLambdaImp.setOutFile(args[2]);
         try {
             javaGrepLambdaImp.process();
@@ -43,3 +43,4 @@ public class JavaGrepLambdaImp extends JavaGrepImp {
                 : Stream.of(file)).collect(Collectors.toList());
     }
 }
+
