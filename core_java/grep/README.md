@@ -23,7 +23,7 @@ java -cp target/grep-1.0-SNAPSHOT.jar ca.jrvs.apps.grep.JavaGrepLambdaImp .*Rome
 Process Method
 ````
 matchedLines = []
-for file in listFilesRecursively(rootDir)
+for file in listFiles(rootDir)
 for line in readLines(file)
 if containsPattern(line)
 matchedLines.add(line)
@@ -69,7 +69,7 @@ Manual testing was conducted using the following steps:
 
 - A shakespeare.txt file located in [./data/txt/]() was used as sample data.
 
-- The application was run via terminal using known strings (e.g., .*Romeo.*Juliet.*).
+- The application was run via terminal using known strings (e.g., .*Romeo.*Juliet.\*).
 
 - Checked if the output file was created in the /out directory. 
 - Compared the line count of the output 
