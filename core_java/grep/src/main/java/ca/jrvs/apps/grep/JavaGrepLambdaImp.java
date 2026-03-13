@@ -8,6 +8,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.List;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class JavaGrepLambdaImp extends JavaGrepImp {
     public static void main(String[] args) {
@@ -35,24 +36,19 @@ public class JavaGrepLambdaImp extends JavaGrepImp {
         writeToFile(matchedLines);
     }
 
-    @Override
-    public List<File> listFiles(String rootDir) {
+    public Stream<String> readLinesStream(File inputFile) {
         try {
-            return Files.walk(Paths.get(rootDir))
-                    .filter(Files::isRegularFile)
-                    .map(Path::toFile)
-                    .collect(Collectors.toList());
+            return Files.lines(inputFile.toPath(), StandardCharsets.ISO_8859_1);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
     }
 
-    @Override
-    public List<String> readLines(File inputFile) {
+    public Stream<File> listFilesStream(String rootDir) {
         try {
-            // ISO_8859_1 to prevent MalformedInputException
-            return Files.lines(inputFile.toPath(), StandardCharsets.ISO_8859_1)
-                    .collect(Collectors.toList());
+            return Files.walk(Paths.get(rootDir))
+                    .filter(Files::isRegularFile)
+                    .map(Path::toFile);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
