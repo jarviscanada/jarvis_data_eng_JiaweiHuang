@@ -25,6 +25,15 @@ public class JavaGrepLambdaImp extends JavaGrepImp {
         }
     }
 
+    @Override
+    public void process() throws IOException {
+        List<String> matchedLines = listFiles(getRootPath()).stream()
+                .flatMap(file -> readLines(file).stream())
+                .filter(this::containPattern)
+                .collect(Collectors.toList());
+
+        writeToFile(matchedLines);
+    }
 
     @Override
     public List<File> listFiles(String rootDir) {
