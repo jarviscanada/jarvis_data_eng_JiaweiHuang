@@ -22,14 +22,9 @@
   "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_JiaweiHuang",
   "highlighted_projects": [
     {
-      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
-      "git_url": "https://github.com/jarviscanada/jarvis_profile_builder",
-      "name": "Web app for resturant"
-    },
-    {
-      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
+      "description": "Extracted and cleaned 1000000+ lines of user behavior data from CSVs and Google BigQuery, ensured its governance and readiness for further analysis by leveraging Python and SQL. Collaborated with the marketing division to develop an RFM model that classified users based on shopping patterns and designed marketing strategies for customer segmentation, reducing customer churn rate by 5%. Created dashboards using Power BI and Looker Studio to identify key metrics that defined customer behaviors, incorporated cohort analysis on users' activities and customer retention rate, boosting the re-visit rate by 8%. Designed business schema and imported it to a SQL relational database on the GCP cloud. Performed database administration for both Cloud SQL and local database.\"",
       "git_url": null,
-      "name": "Machine Learning"
+      "name": "Branchy Solutions: Customer Intelligence Analysis"
     }
   ],
   "jarvis_projects": [
@@ -46,37 +41,23 @@
     },
     {
       "description": [
-        "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.",
-        "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.",
-        "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+        "Developed a Java-based application replicating Linux grep to search regex patterns across directory trees and output matching results, supporting log analysis for large-scale systems.",
+        "Implemented both iterative (loops) and functional (Streams, Lambda) approaches to optimize performance and code readability.",
+        "Managed dependencies using Maven and containerized the application with Docker for consistent cross-platform deployment.",
+        "Validated accuracy by benchmarking results against native grep outputs using sample files and log data.",
+        "Maintained version control and development workflow using GitHub."
       ],
       "git_url": "/core_java",
-      "name": "Core Java Apps"
+      "name": "Core Java Grep App"
     },
     {
-      "description": "",
-      "git_url": "/springboot",
-      "name": "Springboot App"
-    },
-    {
-      "description": "",
-      "git_url": "/python_data_anlytics",
+      "description": [
+        "Designed an ETL pipeline for processing 1M+ rows of retail data using Jupyter Notebook",
+        "Created interactive visualizations to communicate seasonal churn trends to stakeholders",
+        "Developed an RFM model that classified users based on shopping patterns and designed marketing strategies for customer segmentation"
+      ],
+      "git_url": "/python_data_analytics",
       "name": "Python Data Analytics"
-    },
-    {
-      "description": "",
-      "git_url": "/hadoop",
-      "name": "Hadoop"
-    },
-    {
-      "description": "",
-      "git_url": "/spark",
-      "name": "Spark"
-    },
-    {
-      "description": "",
-      "git_url": "/cloud_devops",
-      "name": "Cloud/DevOps"
     }
   ],
   "name": "Jiawei Huang",
@@ -98,16 +79,10 @@
   ],
   "professional_experience": [
     {
-      "company": "Jarvis",
-      "description": "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.",
-      "duration": "2020-present",
-      "title": "Software Developer"
-    },
-    {
-      "company": "XYZ Company",
-      "description": "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.",
-      "duration": "2019",
-      "title": "Tutor"
+      "company": "OTT Financial Inc.",
+      "description": "Conducted in-depth revenue analysis through customer segmentation via Python, identified specific age groups and regions with high purchasing power, resulting in strategic recommendation that bolstered sales by 8%. Designed and automated weekly reporting process by building calculation mode in Python (Pandas, NumPy). Led promotional effect analysis by conducting A/B testing and data transformations to inform and refine marketing strategies, provided recommendations for marketing team with cost-efficient discount plans to boost sales. Managed the end to end business intelligence cycle, overseeing data analysis and visualizations in Tableau dashboards while ensuring governance of merchant sales and user demographic data for future analytics.",
+      "duration": "2021-2022",
+      "title": "Operational Data Specialist"
     }
   ],
   "skills": {
