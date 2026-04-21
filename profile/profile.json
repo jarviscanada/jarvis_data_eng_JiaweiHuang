@@ -22,9 +22,9 @@
   "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_JiaweiHuang",
   "highlighted_projects": [
     {
-      "description": "Extracted and cleaned 1000000+ lines of user behavior data from CSVs and Google BigQuery, ensured its governance and readiness for further analysis by leveraging Python and SQL. Collaborated with the marketing division to develop an RFM model that classified users based on shopping patterns and designed marketing strategies for customer segmentation, reducing customer churn rate by 5%. Created dashboards using Power BI and Looker Studio to identify key metrics that defined customer behaviors, incorporated cohort analysis on users' activities and customer retention rate, boosting the re-visit rate by 8%. Designed business schema and imported it to a SQL relational database on the GCP cloud. Performed database administration for both Cloud SQL and local database.\"",
+      "description": "                                                                              ",
       "git_url": null,
-      "name": "Branchy Solutions: Customer Intelligence Analysis"
+      "name": "   "
     }
   ],
   "jarvis_projects": [
@@ -48,7 +48,7 @@
         "Maintained version control and development workflow using GitHub."
       ],
       "git_url": "/core_java",
-      "name": "Core Java Grep App"
+      "name": "Java Grep App"
     },
     {
       "description": [

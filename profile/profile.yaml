@@ -51,7 +51,7 @@ jarvis_projects:
       - "Built data collection scripts in Bash leveraging Linux kernel interfaces; automated ingestion via cron jobs."
       - "Ensured data accuracy by validating database records against live system outputs (vmstat)."
       - "Containerized PostgreSQL using Docker with persistent storage (Docker volumes) and managed development workflow via GitHub."
-  - name: "Core Java Grep App"
+  - name: "Java Grep App"
     git_url: "/core_java"
     description:
       - "Developed a Java-based application replicating Linux grep to search regex patterns across directory trees and output matching results, supporting log analysis for large-scale systems."
@@ -78,11 +78,11 @@ jarvis_projects:
 # Feel free to add more projects
 highlighted_projects:
     #project name
-  - name: "Branchy Solutions: Customer Intelligence Analysis"
+  - name: "   "
     #URL is optional
     git_url:
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: Extracted and cleaned 1000000+ lines of user behavior data from CSVs and Google BigQuery, ensured its governance and readiness for further analysis by leveraging Python and SQL. Collaborated with the marketing division to develop an RFM model that classified users based on shopping patterns and designed marketing strategies for customer segmentation, reducing customer churn rate by 5%. Created dashboards using Power BI and Looker Studio to identify key metrics that defined customer behaviors, incorporated cohort analysis on users' activities and customer retention rate, boosting the re-visit rate by 8%. Designed business schema and imported it to a SQL relational database on the GCP cloud. Performed database administration for both Cloud SQL and local database."
+    description: "                                                                              "
 
 #List of professional experience
 #The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).

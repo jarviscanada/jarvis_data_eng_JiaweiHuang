@@ -1,4 +1,3 @@
-
 # Jiawei Huang . Jarvis Consulting
 
 Data Engineer with a robust background in Actuarial Science and Financial Accountability, specializing in the architecture of scalable ETL pipelines and high-frequency financial data analysis. Leveraging professional experience in data analytics, I excel at translating complex business requirements into data-driven solutions using Python, SQL, and Apache Spark. I am deeply passionate about the intersection of capital markets and big data, specifically in building robust Medallion architectures that ensure data integrity for risk and performance metrics. My unique background as a close-up magician fuels my interpersonal skills, enabling seamless collaboration with cross-functional stakeholders in Agile environments.
@@ -24,7 +23,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_JiaweiHuan
   - Ensured data accuracy by validating database records against live system outputs (vmstat).
   - Containerized PostgreSQL using Docker with persistent storage (Docker volumes) and managed development workflow via GitHub.
 
-**Core Java Grep App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_JiaweiHuang/tree/master/core_java)]:
+**Java Grep App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_JiaweiHuang/tree/master/core_java)]:
       
   - Developed a Java-based application replicating Linux grep to search regex patterns across directory trees and output matching results, supporting log analysis for large-scale systems.
   - Implemented both iterative (loops) and functional (Streams, Lambda) approaches to optimize performance and code readability.
@@ -47,7 +46,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_JiaweiHuan
 
 
 ## Highlighted Projects
-**Branchy Solutions: Customer Intelligence Analysis**: Extracted and cleaned 1000000+ lines of user behavior data from CSVs and Google BigQuery, ensured its governance and readiness for further analysis by leveraging Python and SQL. Collaborated with the marketing division to develop an RFM model that classified users based on shopping patterns and designed marketing strategies for customer segmentation, reducing customer churn rate by 5%. Created dashboards using Power BI and Looker Studio to identify key metrics that defined customer behaviors, incorporated cohort analysis on users' activities and customer retention rate, boosting the re-visit rate by 8%. Designed business schema and imported it to a SQL relational database on the GCP cloud. Performed database administration for both Cloud SQL and local database."
+**   **:                                                                               
 
 
 ## Professional Experiences
