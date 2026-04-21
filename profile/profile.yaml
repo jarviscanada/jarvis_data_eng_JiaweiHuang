@@ -6,9 +6,11 @@ github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_JiaweiHuan
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
 summary:
-  Business Systems Analyst with strong analytical background in financial data, risk analysis, and business intelligence. Experienced in translating business needs into data-driven solutions, supporting end-to-end analytics workflows, and working with cross-functional stakeholders.
-  Proficient in SQL, Python, and data visualization tools with hands-on experience analyzing large datasets, validating data integrity, and supporting business decision-making. Familiar with capital markets concepts including financial reporting, risk metrics, and pricing analysis.
-
+  Data Engineer with a robust background in Actuarial Science and Financial Accountability, specializing in the architecture of 
+  scalable ETL pipelines and high-frequency financial data analysis. Leveraging professional experience in data analytics, 
+  I excel at translating complex business requirements into data-driven solutions using Python, SQL, and Apache Spark. I am deeply passionate 
+  about the intersection of capital markets and big data, specifically in building robust Medallion architectures that ensure data integrity for risk and performance metrics. 
+  My unique background as a close-up magician fuels my interpersonal skills, enabling seamless collaboration with cross-functional stakeholders in Agile environments.
 # Group your skills by level.
 
 # Group your skills by level.
@@ -21,6 +23,7 @@ skills:
     - Agile/Scrum
     - Git
     - Python (Numpy, Pandas, Matplotlib)
+    - Spark
     - MS Excel (formulas, conditional formatting, pivot table)
   # At least 5 skills
   competent:
@@ -29,6 +32,7 @@ skills:
     - Tableau
     - PowerBI
     - Java
+    - MS Azure
   # At least 5 skills
   familiar:
     - SAS
@@ -55,12 +59,19 @@ jarvis_projects:
       - "Managed dependencies using Maven and containerized the application with Docker for consistent cross-platform deployment."
       - "Validated accuracy by benchmarking results against native grep outputs using sample files and log data."
       - "Maintained version control and development workflow using GitHub."
-  - name: "Python Data Analytics"
+  - name: "London Gift Shop Data Analytics"
     git_url: "/python_data_analytics"
     description:
       - "Designed an ETL pipeline for processing 1M+ rows of retail data using Jupyter Notebook"
       - "Created interactive visualizations to communicate seasonal churn trends to stakeholders"
       - "Developed an RFM model that classified users based on shopping patterns and designed marketing strategies for customer segmentation"
+  - name: "Stock Data ETL Pipeline"
+    git_url: "/spark"
+    description:
+      - "Built a robust data ingestion engine to extract daily stock records from REST APIs into a Databricks environment"
+      - "Leveraged Apache Spark and Delta Lake to build a structured DLT pipeline, transforming raw JSON responses into high-performance analytical tables"
+      - "Visualized key financial metrics by building dashboards on refined data layers, reducing manual reporting time"
+      - "Managed job orchestration and error handling for daily data loads, ensuring 99.9% pipeline uptime"
 
 
 # List of personal or academic projects
