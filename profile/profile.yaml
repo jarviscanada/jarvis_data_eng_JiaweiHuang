@@ -78,11 +78,11 @@ jarvis_projects:
 # Feel free to add more projects
 highlighted_projects:
     #project name
-  - name: "   "
+  - name: "Regression Analysis for Red Wine Quality Factors"
     #URL is optional
     git_url:
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "                                                                              "
+    description: "Performed regression analysis on the red wine dataset with 1.6K observations, utilized SAS for computation. Identified and addressed outliers through Cook’s distance analysis and implemented necessary tests, enhanced model stability and increased R2. Collaborated with team members to optimize the model for accurate future predictions"
 
 #List of professional experience
 #The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).

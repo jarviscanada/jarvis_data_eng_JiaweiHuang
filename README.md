@@ -46,7 +46,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_JiaweiHuan
 
 
 ## Highlighted Projects
-**   **:                                                                               
+**Regression Analysis for Red Wine Quality Factors**: Performed regression analysis on the red wine dataset with 1.6K observations, utilized SAS for computation. Identified and addressed outliers through Cook’s distance analysis and implemented necessary tests, enhanced model stability and increased R2. Collaborated with team members to optimize the model for accurate future predictions
 
 
 ## Professional Experiences
