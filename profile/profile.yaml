@@ -1,0 +1,132 @@
+# Preferred name (Characters only)
+name: "Jiawei Huang"
+# Your GitHub repo root URL
+github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_JiaweiHuang
+
+# Introduce yourself, your academic and professional background.
+# What excites you about the software industry and your passion. At least 80 words
+summary:
+  Data Engineer with a robust background in Actuarial Science and Financial Accountability, specializing in the architecture of 
+  scalable ETL pipelines and high-frequency financial data analysis. Leveraging professional experience in data analytics, 
+  I excel at translating complex business requirements into data-driven solutions using Python, SQL, and Apache Spark. I am deeply passionate 
+  about the intersection of capital markets and big data, specifically in building robust Medallion architectures that ensure data integrity for risk and performance metrics. 
+  My unique background as a close-up magician fuels my interpersonal skills, enabling seamless collaboration with cross-functional stakeholders in Agile environments.
+# Group your skills by level.
+
+# Group your skills by level.
+# Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
+skills:
+  # At least 5 skills
+  proficient:
+    - Linux/Bash
+    - RDBMS/SQL
+    - Agile/Scrum
+    - Git
+    - Python (Numpy, Pandas, Matplotlib)
+    - Spark
+    - MS Excel (formulas, conditional formatting, pivot table)
+  # At least 5 skills
+  competent:
+    - Databricks
+    - Docker
+    - Tableau
+    - PowerBI
+    - Java
+    - MS Azure
+  # At least 5 skills
+  familiar:
+    - SAS
+    - R
+    - Hadoop
+    - Monte-Carlo Simulation
+    - Google Cloud Platform
+
+# List of Jarvis projects
+jarvis_projects:
+  - name: "Cluster Monitor"
+    git_url: "/linux_sql"
+    description: 
+      - "Developed a Linux host monitoring agent for system administrators and DevOps, providing real-time and historical insights into cluster resource utilization."
+      - "Designed a relational schema in PostgreSQL to support static hardware data and high-frequency time-series metrics (CPU, memory), linking host_info and host_usage tables."
+      - "Built data collection scripts in Bash leveraging Linux kernel interfaces; automated ingestion via cron jobs."
+      - "Ensured data accuracy by validating database records against live system outputs (vmstat)."
+      - "Containerized PostgreSQL using Docker with persistent storage (Docker volumes) and managed development workflow via GitHub."
+  - name: "Java Grep App"
+    git_url: "/core_java"
+    description:
+      - "Developed a Java-based application replicating Linux grep to search regex patterns across directory trees and output matching results, supporting log analysis for large-scale systems."
+      - "Implemented both iterative (loops) and functional (Streams, Lambda) approaches to optimize performance and code readability."
+      - "Managed dependencies using Maven and containerized the application with Docker for consistent cross-platform deployment."
+      - "Validated accuracy by benchmarking results against native grep outputs using sample files and log data."
+      - "Maintained version control and development workflow using GitHub."
+  - name: "London Gift Shop Data Analytics"
+    git_url: "/python_data_analytics"
+    description:
+      - "Designed an ETL pipeline for processing 1M+ rows of retail data using Jupyter Notebook"
+      - "Created interactive visualizations to communicate seasonal churn trends to stakeholders"
+      - "Developed an RFM model that classified users based on shopping patterns and designed marketing strategies for customer segmentation"
+  - name: "Stock Data ETL Pipeline"
+    git_url: "/spark"
+    description:
+      - "Built a robust data ingestion engine to extract daily stock records from REST APIs into a Databricks environment"
+      - "Leveraged Apache Spark and Delta Lake to build a structured DLT pipeline, transforming raw JSON responses into high-performance analytical tables"
+      - "Visualized key financial metrics by building dashboards on refined data layers, reducing manual reporting time"
+      - "Managed job orchestration and error handling for daily data loads, ensuring 99.9% pipeline uptime"
+
+
+# List of personal or academic projects
+# Feel free to add more projects
+highlighted_projects:
+    #project name
+  - name: "Regression Analysis for Red Wine Quality Factors"
+    #URL is optional
+    git_url:
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: "Performed regression analysis on the red wine dataset with 1.6K observations, utilized SAS for computation. Identified and addressed outliers through Cook’s distance analysis and implemented necessary tests, enhanced model stability and increased R2. Collaborated with team members to optimize the model for accurate future predictions"
+
+#List of professional experience
+#The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+#The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
+professional_experience:
+  #Write your Jarvis role as a professional experience rather than training.
+#  - title: "Junior Data Engineer"
+#    company: "Jarvis"
+#    duration: "2026-present"
+#    # The project description must start with an action verb (https://bit.ly/3guO98u)
+#    description:
+#      - "Developed a Linux host monitoring agent for system administrators and DevOps, providing real-time and historical insights into cluster resource utilization."
+  - title: "Operational Data Specialist"
+    company: "OTT Financial Inc."
+    duration: "2021-2022"
+    description: "Conducted in-depth revenue analysis through customer segmentation via Python, identified specific age groups and regions with high purchasing power, resulting in strategic recommendation that bolstered sales by 8%. Designed and automated weekly reporting process by building calculation mode in Python (Pandas, NumPy). Led promotional effect analysis by conducting A/B testing and data transformations to inform and refine marketing strategies, provided recommendations for marketing team with cost-efficient discount plans to boost sales. Managed the end to end business intelligence cycle, overseeing data analysis and visualizations in Tableau dashboards while ensuring governance of merchant sales and user demographic data for future analytics."
+
+#List of edcuation
+education: 
+  - school_name: "York University"
+    duration: "2022-2023"
+    department: "Administrative Studies"
+    degree: "Master of Financial Accountability"
+    awards_achievements:
+      - "Relevant Courses: Enterprise Risk Management, Corporate Governance, Synthesis of theory and practice, governance and accountability"
+
+    # optional
+
+  - school_name: "York University"
+    duration: "2017-2021"
+    department: "Mathamatics and Statistics"
+    degree: "Bachelor of Arts Hons in Actuarial Science"
+    awards_achievements:
+      - "Relevant Courses: The Mathematical Theory of Interest, Models of Financial Economics, Scientific Computation of Financial Application"
+
+#Optional section
+others:
+    #category
+  - title: "Certificates"
+    #list of items
+    bullets:
+      - "Coursera IBM Data Science Professional"
+  - title: "Activities/Hobbies"
+    bullets:
+      - "Basketball player"
+      - "Poker Player"
+      - "Close-up Magician"
