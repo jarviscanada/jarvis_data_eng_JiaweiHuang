@@ -6,11 +6,10 @@ github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_JiaweiHuan
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
 summary:
-  Data Engineer with a robust background in Actuarial Science and Financial Accountability, specializing in the architecture of 
-  scalable ETL pipelines and high-frequency financial data analysis. Leveraging professional experience in data analytics, 
-  I excel at translating complex business requirements into data-driven solutions using Python, SQL, and Apache Spark. I am deeply passionate 
-  about the intersection of capital markets and big data, specifically in building robust Medallion architectures that ensure data integrity for risk and performance metrics. 
-  My unique background as a close-up magician fuels my interpersonal skills, enabling seamless collaboration with cross-functional stakeholders in Agile environments.
+  Data Engineer and aspiring Mainframe Developer with a background in Actuarial Science and Financial Accountability. 
+  Experienced in building data pipelines and financial systems, with hands-on COBOL development skills including indexed file I/O, 
+  VSAM architecture, JCL, ISPF, and modular program design. Passionate about applying enterprise mainframe technologies to the 
+  high-reliability demands of financial data processing, where legacy and modern systems intersect.
 # Group your skills by level.
 
 # Group your skills by level.
@@ -24,25 +23,35 @@ skills:
     - Git
     - Python (Numpy, Pandas, Matplotlib)
     - Spark
+    - Tableau
     - MS Excel (formulas, conditional formatting, pivot table)
   # At least 5 skills
   competent:
+    - Cobol
+    - JCL
+    - ISPF
+    - DB2
     - Databricks
     - Docker
-    - Tableau
-    - PowerBI
     - Java
-    - MS Azure
   # At least 5 skills
   familiar:
     - SAS
     - R
     - Hadoop
-    - Monte-Carlo Simulation
+    - Redis
     - Google Cloud Platform
+    - Microsoft Azure
 
 # List of Jarvis projects
 jarvis_projects:
+  - name: "Student Registration System"
+    git_url: "/mainframe"
+    description:
+      - "Designed and built a full-featured student records management system in COBOL, comprising nine independently compiled programs orchestrated through a central menu interface"
+      - "Implemented complete CRUD functionality against a keyed indexed file with random and sequential access patterns"
+      - "Developed a control-break report generator that groups student records by enrollment date and writes formatted output to a sequential report file"
+      - "Applied defensive file handling throughout, validating FILE STATUS codes after every I/O operation and handling duplicate key, record-not-found, and layout mismatch conditions"
   - name: "Cluster Monitor"
     git_url: "/linux_sql"
     description: 
@@ -95,12 +104,20 @@ professional_experience:
 #    # The project description must start with an action verb (https://bit.ly/3guO98u)
 #    description:
 #      - "Developed a Linux host monitoring agent for system administrators and DevOps, providing real-time and historical insights into cluster resource utilization."
+  - title: "Big Data Developer"
+    company: "Bank of Suzhou"
+    duration: "2024-2025"
+    description: "Developed and maintained ETL pipelines on Alibaba Cloud and MaxCompute to process and transform large-scale banking data for downstream analytics and reporting.
+    Designed and managed data warehouse tables, partitioning strategies, and data models to support efficient data storage and retrieval.
+    Optimized large-scale queries and data processing jobs, improving performance and reducing execution costs within the cloud data platform.
+    Implemented data quality checks and reconciliation processes to ensure reliability and integrity of enterprise reporting data.
+    Partnered with analysts and business stakeholders to deliver scalable data solutions supporting regulatory reporting, operational monitoring, and business intelligence initiatives."
   - title: "Operational Data Specialist"
     company: "OTT Financial Inc."
     duration: "2021-2022"
     description: "Conducted in-depth revenue analysis through customer segmentation via Python, identified specific age groups and regions with high purchasing power, resulting in strategic recommendation that bolstered sales by 8%. Designed and automated weekly reporting process by building calculation mode in Python (Pandas, NumPy). Led promotional effect analysis by conducting A/B testing and data transformations to inform and refine marketing strategies, provided recommendations for marketing team with cost-efficient discount plans to boost sales. Managed the end to end business intelligence cycle, overseeing data analysis and visualizations in Tableau dashboards while ensuring governance of merchant sales and user demographic data for future analytics."
 
-#List of edcuation
+#List of education
 education: 
   - school_name: "York University"
     duration: "2022-2023"
@@ -113,10 +130,10 @@ education:
 
   - school_name: "York University"
     duration: "2017-2021"
-    department: "Mathamatics and Statistics"
+    department: "Mathematics and Statistics"
     degree: "Bachelor of Arts Hons in Actuarial Science"
     awards_achievements:
-      - "Relevant Courses: The Mathematical Theory of Interest, Models of Financial Economics, Scientific Computation of Financial Application"
+      - "Relevant Courses: The Mathematical Theory of Interest, Models of Financial Economics, Scientific Computation of Financial Application, Time Series Analysis, Regression Analysis"
 
 #Optional section
 others:
