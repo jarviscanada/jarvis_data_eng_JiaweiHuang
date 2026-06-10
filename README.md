@@ -1,19 +1,26 @@
 # Jiawei Huang . Jarvis Consulting
 
-Data Engineer with a robust background in Actuarial Science and Financial Accountability, specializing in the architecture of scalable ETL pipelines and high-frequency financial data analysis. Leveraging professional experience in data analytics, I excel at translating complex business requirements into data-driven solutions using Python, SQL, and Apache Spark. I am deeply passionate about the intersection of capital markets and big data, specifically in building robust Medallion architectures that ensure data integrity for risk and performance metrics. My unique background as a close-up magician fuels my interpersonal skills, enabling seamless collaboration with cross-functional stakeholders in Agile environments.
+Data Engineer and aspiring Mainframe Developer with a background in Actuarial Science and Financial Accountability. Experienced in building data pipelines and financial systems, with hands-on COBOL development skills including indexed file I/O, VSAM architecture, JCL, ISPF, and modular program design. Passionate about applying enterprise mainframe technologies to the high-reliability demands of financial data processing, where legacy and modern systems intersect.
 
 ## Skills
 
-**Proficient:** Linux/Bash, RDBMS/SQL, Agile/Scrum, Git, Python (Numpy, Pandas, Matplotlib), Spark, MS Excel (formulas, conditional formatting, pivot table)
+**Proficient:** Linux/Bash, RDBMS/SQL, Agile/Scrum, Git, Python (Numpy, Pandas, Matplotlib), Spark, Tableau, MS Excel (formulas, conditional formatting, pivot table)
 
-**Competent:** Databricks, Docker, Tableau, PowerBI, Java, MS Azure
+**Competent:** Cobol, JCL, ISPF, DB2, Databricks, Docker, Java
 
-**Familiar:** SAS, R, Hadoop, Monte-Carlo Simulation, Google Cloud Platform
+**Familiar:** SAS, R, Hadoop, Redis, Google Cloud Platform, Microsoft Azure
 
 ## Jarvis Projects
 
 Project source code: [https://github.com/jarviscanada/jarvis_data_eng_JiaweiHuang](https://github.com/jarviscanada/jarvis_data_eng_JiaweiHuang)
 
+
+**Student Registration System** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_JiaweiHuang/tree/master/mainframe)]:
+      
+  - Designed and built a full-featured student records management system in COBOL, comprising nine independently compiled programs orchestrated through a central menu interface
+  - Implemented complete CRUD functionality against a keyed indexed file with random and sequential access patterns
+  - Developed a control-break report generator that groups student records by enrollment date and writes formatted output to a sequential report file
+  - Applied defensive file handling throughout, validating FILE STATUS codes after every I/O operation and handling duplicate key, record-not-found, and layout mismatch conditions
 
 **Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_JiaweiHuang/tree/master/linux_sql)]:
       
@@ -51,6 +58,8 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_JiaweiHuan
 
 ## Professional Experiences
 
+**Big Data Developer, Bank of Suzhou (2024-2025)**: Developed and maintained ETL pipelines on Alibaba Cloud and MaxCompute to process and transform large-scale banking data for downstream analytics and reporting. Designed and managed data warehouse tables, partitioning strategies, and data models to support efficient data storage and retrieval. Optimized large-scale queries and data processing jobs, improving performance and reducing execution costs within the cloud data platform. Implemented data quality checks and reconciliation processes to ensure reliability and integrity of enterprise reporting data. Partnered with analysts and business stakeholders to deliver scalable data solutions supporting regulatory reporting, operational monitoring, and business intelligence initiatives.
+
 **Operational Data Specialist, OTT Financial Inc. (2021-2022)**: Conducted in-depth revenue analysis through customer segmentation via Python, identified specific age groups and regions with high purchasing power, resulting in strategic recommendation that bolstered sales by 8%. Designed and automated weekly reporting process by building calculation mode in Python (Pandas, NumPy). Led promotional effect analysis by conducting A/B testing and data transformations to inform and refine marketing strategies, provided recommendations for marketing team with cost-efficient discount plans to boost sales. Managed the end to end business intelligence cycle, overseeing data analysis and visualizations in Tableau dashboards while ensuring governance of merchant sales and user demographic data for future analytics.
 
 
@@ -58,8 +67,8 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_JiaweiHuan
 **York University (2022-2023)**, Master of Financial Accountability, Administrative Studies
 - Relevant Courses: Enterprise Risk Management, Corporate Governance, Synthesis of theory and practice, governance and accountability
 
-**York University (2017-2021)**, Bachelor of Arts Hons in Actuarial Science, Mathamatics and Statistics
-- Relevant Courses: The Mathematical Theory of Interest, Models of Financial Economics, Scientific Computation of Financial Application
+**York University (2017-2021)**, Bachelor of Arts Hons in Actuarial Science, Mathematics and Statistics
+- Relevant Courses: The Mathematical Theory of Interest, Models of Financial Economics, Scientific Computation of Financial Application, Time Series Analysis, Regression Analysis
 
 
 ## Miscellaneous
