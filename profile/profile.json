@@ -36,7 +36,7 @@
         "Applied defensive file handling throughout, validating FILE STATUS codes after every I/O operation and handling duplicate key, record-not-found, and layout mismatch conditions"
       ],
       "git_url": "/mainframe",
-      "name": "Student Registration System"
+      "name": "Mainframe Student Registration System"
     },
     {
       "description": [
@@ -116,12 +116,13 @@
       "Cobol",
       "JCL",
       "ISPF",
-      "DB2",
+      "Z/OS",
       "Databricks",
       "Docker",
       "Java"
     ],
     "familiar": [
+      "DB2",
       "SAS",
       "R",
       "Hadoop",

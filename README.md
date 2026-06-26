@@ -6,16 +6,16 @@ Data Engineer and aspiring Mainframe Developer with a background in Actuarial Sc
 
 **Proficient:** Linux/Bash, RDBMS/SQL, Agile/Scrum, Git, Python (Numpy, Pandas, Matplotlib), Spark, Tableau, MS Excel (formulas, conditional formatting, pivot table)
 
-**Competent:** Cobol, JCL, ISPF, DB2, Databricks, Docker, Java
+**Competent:** Cobol, JCL, ISPF, Z/OS, Databricks, Docker, Java
 
-**Familiar:** SAS, R, Hadoop, Redis, Google Cloud Platform, Microsoft Azure
+**Familiar:** DB2, SAS, R, Hadoop, Redis, Google Cloud Platform, Microsoft Azure
 
 ## Jarvis Projects
 
 Project source code: [https://github.com/jarviscanada/jarvis_data_eng_JiaweiHuang](https://github.com/jarviscanada/jarvis_data_eng_JiaweiHuang)
 
 
-**Student Registration System** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_JiaweiHuang/tree/master/mainframe)]:
+**Mainframe Student Registration System** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_JiaweiHuang/tree/master/mainframe)]:
       
   - Designed and built a full-featured student records management system in COBOL, comprising nine independently compiled programs orchestrated through a central menu interface
   - Implemented complete CRUD functionality against a keyed indexed file with random and sequential access patterns

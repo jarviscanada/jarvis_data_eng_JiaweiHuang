@@ -30,12 +30,13 @@ skills:
     - Cobol
     - JCL
     - ISPF
-    - DB2
+    - Z/OS
     - Databricks
     - Docker
     - Java
   # At least 5 skills
   familiar:
+    - DB2
     - SAS
     - R
     - Hadoop
@@ -45,7 +46,7 @@ skills:
 
 # List of Jarvis projects
 jarvis_projects:
-  - name: "Student Registration System"
+  - name: "Mainframe Student Registration System"
     git_url: "/mainframe"
     description:
       - "Designed and built a full-featured student records management system in COBOL, comprising nine independently compiled programs orchestrated through a central menu interface"
